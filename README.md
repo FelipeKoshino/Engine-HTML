@@ -7,7 +7,7 @@ um site.
 Caso se interesse por este projeto e queira implementar
 em sua própria aplicação segue a explicação abaixo da estrutura do projeto:
 
-# ----------------------------------------------------------
+#
 
 Função engineHtml():
 
@@ -53,8 +53,7 @@ para tratar os casos de tags aninhadas como por exemplo no quinto
 objeto do array acima:
 	{tag: "div-ul-li*3, margin-bottom:-20px; margin-top: 30px, nulo"},
 
-
-# ---------------------------------------------
+#
 A função citada é a: nestedTagString(texto)
 
 Parâmetros
@@ -65,8 +64,8 @@ Parâmetros
 
 obs.: há um limite de aninhamento de até 3 tags.
 
+#
 
-# ---------------------------------------------
 Sobre  a  S I N T A X E  do  array-argumento  de  engineHtml(array)
 
 O estrutura padrão dos objetos dentro do array é:
@@ -78,8 +77,7 @@ começo da string temos a criação de uma 'parent-tag':
 
 	{tag: " '1, 'parent-tag', 'estilos', 'classes' "}
 
-
-# ---------------------------------------------
+#
 
 - Quantos aninhamentos posso realizar e de quais maneiras?
 

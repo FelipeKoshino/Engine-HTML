@@ -18,7 +18,7 @@ Um array com as tags seguidas de seus estilos para
 a criação de um esqueleto html a ser montado na tela do navegador.
 
 Exemplo:
------------
+html```
 let arr8 = [
 {tag: "article,margin-top:40px, col s6"},
 {tag: "1,article,margin-top:60px, col s6"},
@@ -27,7 +27,7 @@ let arr8 = [
 {tag: "div-ul-li*3,margin-bottom:-20px; margin-top: 30px, nulo"},
 {tag: "p,font-size:2.2rem; margin-top:18px, 0"},
 ]
------------
+```
 
 O array acima fica a critério do desenvolvedor do site de como montar
 conforme o esqueleto html que pretende criar.

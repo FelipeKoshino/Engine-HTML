@@ -50,12 +50,13 @@ Neste exemplo do array teremos como resultado o seguinte esqueleto:
 	<p style="font-size:1rem; padding-top:15px" class="0"></p>
 </article>
 ```
+#
+
 dentro da função engineHtml foi criada uma segunda função
 para tratar os casos de tags aninhadas como por exemplo no quinto
 objeto do array acima:
 	{tag: "div-ul-li*3, margin-bottom:-20px; margin-top: 30px, nulo"},
 
-#
 A função citada é a: nestedTagString(texto)
 
 Parâmetros

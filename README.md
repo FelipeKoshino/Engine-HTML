@@ -20,13 +20,13 @@ a criação de um esqueleto html a ser montado na tela do navegador.
 Exemplo:
 -----------
 let arr8 = [
-     {tag: "article,margin-top:40px, col s6"},
-     {tag: "1,article,margin-top:60px, col s6"},
-     {tag: "span,0, 0"}, // tom
-     {tag: "p,font-style:italic; margin:16px 0 -10px, 0"},
-     {tag: "div-ul-li*3,margin-bottom:-20px; margin-top: 30px, nulo"},
-     {tag: "p,font-size:2.2rem; margin-top:18px, 0"},
-  ]
+{tag: "article,margin-top:40px, col s6"},
+{tag: "1,article,margin-top:60px, col s6"},
+{tag: "span,0, 0"}, // tom
+{tag: "p,font-style:italic; margin:16px 0 -10px, 0"},
+{tag: "div-ul-li*3,margin-bottom:-20px; margin-top: 30px, nulo"},
+{tag: "p,font-size:2.2rem; margin-top:18px, 0"},
+]
 -----------
 
 O array acima fica a critério do desenvolvedor do site de como montar
@@ -46,7 +46,8 @@ Neste exemplo do arr8 teremos como resultado o seguinte esqueleto:
 	  </ul>
 	</div>
 	<p style="font-size:2.2rem; margin-top:18px" class="0"></p>
-	<p style="font-size:1rem; padding-top:15px" class="0"></p></article>
+	<p style="font-size:1rem; padding-top:15px" class="0"></p>
+</article>
 
 dentro da função engineHtml foi criada uma segunda função
 para tratar os casos de tags aninhadas como por exemplo no quinto
@@ -87,7 +88,7 @@ R: Não há limites do número de aninhamentos, além disso
 
    Não é possivel criar uma parent-tag com objetos do tipo {tag: "1,tag,..} dentro de uma já criada parent-tag.
 
-# ----------------------------------------------------------
+
 
 ## License
 

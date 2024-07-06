@@ -34,7 +34,7 @@ conforme o esqueleto html que pretende criar.
 
 Neste exemplo do arr8 teremos como resultado o seguinte esqueleto:
 
-![alt text](./htmlex.svg)
+![](htmlex.svg)
 
 dentro da função engineHtml foi criada uma segunda função
 para tratar os casos de tags aninhadas como por exemplo no quinto

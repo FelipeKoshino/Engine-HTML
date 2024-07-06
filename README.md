@@ -34,20 +34,7 @@ conforme o esqueleto html que pretende criar.
 
 Neste exemplo do arr8 teremos como resultado o seguinte esqueleto:
 
-<article style="margin-top:40px" class="col s6"></article>
-<article style="margin-top:60px" class="col s6">
-	<span style="0" class="0"></span>
-	<p style="font-style:italic; margin:16px 0 -10px" class="0"></p>
-	<div>
-	  <ul>
-	    <li></li>
-	    <li></li>
-	    <li></li>
-	  </ul>
-	</div>
-	<p style="font-size:2.2rem; margin-top:18px" class="0"></p>
-	<p style="font-size:1rem; padding-top:15px" class="0"></p>
-</article>
+![](./path/htmlex.svg)
 
 dentro da função engineHtml foi criada uma segunda função
 para tratar os casos de tags aninhadas como por exemplo no quinto

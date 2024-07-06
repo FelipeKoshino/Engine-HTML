@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: rgb(64, 69, 72);
+}
+
+a, p, span, li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .2rem;
+    color: rgb(205, 218, 228);
+}
+
+h1{
+  font-size: 3.6rem;
+  color: rgb(24, 26, 27);
+}
+p {
+  font-size: 1.8rem;
+}
+li {
+  font-size: 3.2rem; /*2.6rem*/
+}
+
+
+@media (min-width: 721px){
+.sideBar {
+  height: 100vh;
+  width: 16%;
+  /*width: 12.3rem; | width: 6.1rem;*/
+  position: fixed;
+  /*background-color: #e1ae66; /* #6792b1 azul | #ba8943 marrom */
+  background-image: linear-gradient(to right, #737e81 , #9aa0a1);
+  /*background-image: linear-gradient(to right, #ba8943 , #e6ae61);*/
+  padding: 2rem 0;
+  font-size: 1.3rem;
+  margin-top: -30px;
+
+    nav {
+      left: 12.3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      background-color: rgb(71, 146, 154); /* #7ea7c4 blue-btn */
+      /* rgb(84, 165, 174) green | #aab4b6 grey-metalic-light*/
+    }
+    a {
+      height: 80px;
+      text-align: center; /*row*/
+      align-content: center; /*column*/
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: rgb(64, 69, 72);
+    }
+}
+.geral {
+  margin-left: 40%;
+}
+
+article {
+  margin: 86px 0 0;
+  width: 400px;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: -9px;
+  }
+}
+.ptitle{
+  position: absolute;
+  left: 20%;
+}
+.listSongs {
+  margin-top: -52px;
+}
+}
+
+@media (max-width: 720px){
+
+  .sideBar {
+    /*background-color: rgb(45, 104, 110);*/
+    padding: 2rem 0;
+    font-size: 1.3rem;
+    margin-top: -20px;
+  
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      left: 12.3rem;
+      gap: 30px;
+
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      letter-spacing: .3rem;
+      text-decoration: underline;
+    }
+}
+.geral {
+  margin-left: 15%;
+  margin-right: -5%;
+  margin-top: -20px;
+}
+
+article {
+  display: flex;
+  justify-content: flex-start;
+  width: 310px;
+  margin-top: 40px;
+}
+.ptitle{
+  position: absolute;
+  left: 12%;
+}
+.ptitle p{
+  font-size: 1.3rem;
+}
+.listSongs {
+  margin-top: -8px;
+}
+}
+
+
+#transbordo {
+  margin-top: 30px;
+}
+.searchContainer{
+   display: flex;
+   flex-direction: row;
+}
+  
+section {
+    border: none;
+    cursor: pointer;
+    color: rgb(215, 250, 245);
+}
+input {
+    height: 38px;
+    border: none;
+    text-align: start;
+    color: rgb(205, 218, 228);
+}
+button {
+    height: 40px;
+    padding-right: 30px;
+    padding-left: 24px;
+    border: 0;
+    background-color: #7ea7c4;
+    transition:  all 0.2s ease;
+    cursor: pointer;
+
+    font-size: 1.1rem;
+}

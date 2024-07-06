@@ -19,7 +19,7 @@ a criação de um esqueleto html a ser montado na tela do navegador.
 
 Exemplo:
 ```
-let arr8 = [
+let array = [
 {tag: "article,margin-top:40px, col s6"},
 {tag: "1,article,margin-top:60px, col s6"},
 {tag: "span,0, 0"}, // tom
@@ -32,7 +32,7 @@ let arr8 = [
 O array acima fica a critério do desenvolvedor do site de como montar
 conforme o esqueleto html que pretende criar.
 
-Neste exemplo do arr8 teremos como resultado o seguinte esqueleto:
+Neste exemplo do array teremos como resultado o seguinte esqueleto:
 
 ```html
 <article style="margin-top:40px" class="col s6"></article>

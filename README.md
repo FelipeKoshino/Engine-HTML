@@ -90,3 +90,7 @@ R: Não há limites do número de aninhamentos, além disso
    Não é possivel criar uma parent-tag com objetos do tipo {tag: "1,tag,..} dentro de uma já criada parent-tag.
 
 # ----------------------------------------------------------
+
+## License
+
+[MIT License](LICENSE)

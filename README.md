@@ -9,15 +9,16 @@ em sua própria aplicação segue a explicação abaixo da estrutura do projeto:
 
 #
 
-Função engineHtml():
+Função engineHtml(array-1, array-2):
 
 O coração desse projeto é a função engineHtml() que
 recebe 2 inputs: 
 
 Um array com as tags seguidas de seus estilos para
-a criação de um esqueleto html a ser montado na tela do navegador.
+a criação de um esqueleto html e um segundo array 
+vindo de alguma base de dados.
 
-Exemplo:
+Array 1:
 ```
 let array = [
 {tag: "article,margin-top:40px, col s6"},
@@ -32,7 +33,7 @@ let array = [
 O array acima fica a critério do desenvolvedor do site de como montar
 conforme o esqueleto html que pretende criar.
 
-Neste exemplo do array teremos como resultado o seguinte esqueleto:
+Neste exemplo do array-1 teremos como resultado o seguinte esqueleto:
 
 ```html
 <article style="margin-top:40px" class="col s6"></article>

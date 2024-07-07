@@ -32,24 +32,18 @@ const SearchSong = (busca, songList) => {
       // C O M P O N E N T  -  I N P U T - 1
       let arr8 = [
         {tag: "article,margin-top:40px, col s6"},
-        //{tag: "div-ul-li*2,margin-top:40px, col s6"},
-        //testing nest1: Okey se ajustar Array: 'outputs')
+        {tag: "div-ul-li*2,margin-top:40px, col s6"},
         {tag: "1,article,margin-top:60px, col s6"}, // fin = [ 1 ] , r243-311
         {tag: "span,0, 0"}, // tom
         {tag: "p,font-style:italic; margin:16px 0 -10px, 0"}, // música
         {tag: "div-ul-li*3,margin-bottom:-20px; margin-top: 30px, nulo"}, // chords
         {tag: "p,font-size:2.2rem; margin-top:18px, 0"}, // autor
         {tag: "p,font-size:1rem; padding-top:15px, 0"}, // versão
-      ] //(50 rows)
-
-//engineHtml() works just with one parent-element {tag: "1,article,.."
-//**Search grid options to re-alocate grid-elements
-//https://css-tricks.com/a-responsive-grid-layout-with-no-media-queries/
-
+      ]
 
       // Second  A R G U M E N T  -  I N P U T - 2
       const outputs = [
-          //"",
+          "",
           "",
           "",
           "",
@@ -59,7 +53,6 @@ const SearchSong = (busca, songList) => {
           achado[0].autor,
           achado[0].versão
       ]
-
 
 // ----------------------------------------------------------------------------------
 

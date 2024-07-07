@@ -9,7 +9,7 @@ em sua própria aplicação segue a explicação abaixo da estrutura do projeto:
 
 #
 
-Função engineHtml(array-1, array-2):
+Função engineHtml( array-1, array-2 ):
 
 O coração desse projeto é a função engineHtml() que
 recebe 2 inputs: 

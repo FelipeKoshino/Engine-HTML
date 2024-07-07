@@ -176,8 +176,7 @@ const nestedTagString = (texto) => { //num: binary (1 || 0: get out of nesting)
         console.log('---------------- tagNums[0]', tagNums[0])
 
     avulso = flatar(avulso, tagNums[0])
-    //console.log('avulso after FLATAR', avulso)
-    // ["<ul>", "<li>", "</li>", "</ul>", "<ul>", .., "</ul>"] 
+    //avulso: ["<ul>", "<li>", "</li>", "</ul>", "<ul>", .., "</ul>"] 
 
 // ----------------------------------------------------------------
 
@@ -435,23 +434,9 @@ const engineHtml = (obj, data) => {
     }
         // -----------------------------------------------------------------------------
 
-  } // if(fin[0]!=undefined) <--- r296  fin = ntags.filter(e => e === 1)
-    // se(ntags existe)
-    //ntags: [ 1, "article", "<span style=..", "<p.." ]
+  } 
 
-          // if(dtag[0] === -1){ .. }
-          // acumtags = []
-
-          // ** r206 -> r278
-          // ** verificar 'ntags'
-          // ** concatenar até  index == lent-1
-          // ** finalizar com: listSong.innerHTML = 'contatenacao total'
-
-          // or: try some grid solution with a css file
-
-    //--------------------------------------------------------------
-
-  })
+})
 
   //listSong.append(ftag)
 
@@ -462,18 +447,4 @@ return console.log('SearchSong finalizado.')
 }
 
 export { SearchSong }
-    
-// C O M P O N E N T  -  I N P U T - 2
-//let arr9 = [
-//  {tag: "article,0,col s6"},
-//  {tag: "1,article,margin-top:52px, col s6"}, //**criar identificador
-//  {tag: "span,0,0"}, // tom
-//  {tag: "p,margin:16px 0 -10px,0"}, // música
-//  {tag: "div,0,0"},
-//  {tag: "ul-li,0,0"},
-//  {tag: "ul-li*2,0,0"},
-//  {tag: "ul-li*3,0,0"},
-//  {tag: "ul*2-li,0,0"},
-//  {tag: "p,font-size:1.2rem; margin-top:38px,0"}, // autor
-//  {tag: "p,font-size:1rem; padding-top:15px,0"}, // versão
-//]
+
